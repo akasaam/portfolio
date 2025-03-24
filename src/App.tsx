@@ -117,7 +117,7 @@ function App() {
                 <div className="relative">
                   <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-violet-500/20 shadow-xl shadow-violet-500/10">
                     <img 
-                      src="src/img/pp.jpg" 
+                      src="https://avatars.githubusercontent.com/u/133478692?v=4" 
                       alt="Raju Halder"
                       className="w-full h-full object-cover"
                     />
