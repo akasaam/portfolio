@@ -8,8 +8,10 @@ import { CustomCursor } from './components/ui/custom-cursor';
 import { ContactForm } from './components/contact-form';
 import { Code, Globe, Database, Monitor, Search, Palette, Server, Layout, MousePointer, ExternalLink, Github, Rocket, Target, Users, TrendingUp } from 'lucide-react';
 import { motion, useMotionValue, AnimatePresence } from 'framer-motion';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 function App() {
+  <SpeedInsights />
   const [isLoading, setIsLoading] = useState(true);
   const mouseX = useMotionValue(0);
 
