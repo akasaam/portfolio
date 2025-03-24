@@ -66,7 +66,7 @@ function App() {
       title: "Twelve 7 Salon Website",
       description: "Professional salon website with booking system and service catalog",
       image: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?q=80&w=1600&h=900&fit=crop",
-      tech: ["Wardpress","Shopify"],
+      tech: ["WordPress","Shopify"],
       demoUrl: "https://twelve7salon.com",
       githubUrl: "https://github.com/akasaam/twelve7-salon"
     },
