@@ -29,24 +29,28 @@ function App() {
 
   const projects = [
     {
+      title: "GeeksHub",
+      description: "Transform your future with our comprehensive computer training programs. .",
+      image: "https://i.pinimg.com/736x/6a/50/3f/6a503fc28d991c249b3cf8e88a023343.jpg",
+      tech: ["React", "Next.js", "Tailwind CSS"],
+      demoUrl: "https://geekshub.online",
+      githubUrl: "https://github.com/akasaam/geekshub",
+     
+    },
+    {
       title: "Viral Alchemy",
       description: "Digital marketing agency specializing in viral content creation and social media strategy",
       image: "https://i.pinimg.com/736x/34/53/8d/34538d9f40246bba3e5faa2c5d943f17.jpg",
-      tech: ["React", "Next.js", "Tailwind CSS"],
+      tech: ["React", "Next.js", "Tailwind CSS ","Shadcn Ui"],
       demoUrl: "https://viral-alchemy.com",
       githubUrl: "https://github.com/akasaam/viral-alchemy",
-      features: [
-        { icon: <Rocket className="w-4 h-4" />, text: "Viral Content Strategy" },
-        { icon: <Target className="w-4 h-4" />, text: "Targeted Campaigns" },
-        { icon: <Users className="w-4 h-4" />, text: "Audience Growth" },
-        { icon: <TrendingUp className="w-4 h-4" />, text: "Analytics Dashboard" }
-      ]
+     
     },
     {
       title: "Tic Tac Toe Game",
       description: "Interactive player vs computer game with AI opponent and score tracking",
       image: "https://images.unsplash.com/photo-1580234811497-9df7fd2f357e?q=80&w=1600&h=900&fit=crop",
-      tech: ["React", "TypeScript", "Tailwind CSS"],
+      tech: ["React", "JavaScript", "Tailwind CSS"],
       demoUrl: "https://tic-tac-toe.raju.dev",
       githubUrl: "https://github.com/akasaam/tic-tac-toe"
     },
@@ -54,7 +58,7 @@ function App() {
       title: "Todo List Application",
       description: "Feature-rich task management app with local storage and categories",
       image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?q=80&w=1600&h=900&fit=crop",
-      tech: ["React", "TypeScript", "Local Storage"],
+      tech: ["Tailwind CSS", "JavaScript",],
       demoUrl: "https://todo.raju.dev",
       githubUrl: "https://github.com/akasaam/ToDo-List"
     },
@@ -62,18 +66,11 @@ function App() {
       title: "Twelve 7 Salon Website",
       description: "Professional salon website with booking system and service catalog",
       image: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?q=80&w=1600&h=900&fit=crop",
-      tech: ["React", "Node.js", "MongoDB"],
+      tech: ["Wardpress","Shopify"],
       demoUrl: "https://twelve7salon.com",
       githubUrl: "https://github.com/akasaam/twelve7-salon"
     },
-    {
-      title: "E-commerce Platform",
-      description: "Full-featured online store with product management and cart",
-      image: "https://images.unsplash.com/photo-1557821552-17105176677c?q=80&w=1600&h=900&fit=crop",
-      tech: ["React", "Node.js", "Stripe", "MongoDB"],
-      demoUrl: "https://ecommerce.raju.dev",
-      githubUrl: "https://github.com/akasaam/ecommerce"
-    },
+    
     {
       title: "Woods Club",
       description: "A e learning platform for students where the can learn coading and business",
