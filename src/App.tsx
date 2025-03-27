@@ -33,7 +33,7 @@ function App() {
       description: "Transform your future with our comprehensive computer training programs. .",
       image: "https://i.pinimg.com/736x/6a/50/3f/6a503fc28d991c249b3cf8e88a023343.jpg",
       tech: ["React", "Next.js", "Tailwind CSS"],
-      demoUrl: "https://geekshub.online",
+      demoUrl: "https://v0-geeks-hub.vercel.app/",
       githubUrl: "https://github.com/akasaam/geekshub",
      
     },
