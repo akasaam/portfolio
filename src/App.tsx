@@ -75,7 +75,7 @@ function App() {
       title: "Woods Club",
       description: "A e learning platform for students where the can learn coading and business",
       image: "https://i.pinimg.com/736x/9e/0e/2a/9e0e2a8be395cbebe80fe4296dcb4a0e.jpg",
-      tech: ["React", "Next.js", "Tailwind CSS"],
+      tech: [ "Tailwind CSS"],
       demoUrl: "https://woodsclub.netlify.app/",
       githubUrl: "https://github.com/akasaam/woods-club"
     }
