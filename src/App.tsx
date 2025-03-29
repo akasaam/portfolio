@@ -47,12 +47,12 @@ function App() {
      
     },
     {
-      title: "Tic Tac Toe Game",
-      description: "Interactive player vs computer game with AI opponent and score tracking",
-      image: "https://images.unsplash.com/photo-1580234811497-9df7fd2f357e?q=80&w=1600&h=900&fit=crop",
-      tech: ["React", "JavaScript", "Tailwind CSS"],
-      demoUrl: "https://tic-tac-toe.raju.dev",
-      githubUrl: "https://github.com/akasaam/tic-tac-toe"
+      title: "Password Manager",
+      description: "Keep your digital life secure, it's saves all data on  your phone only",
+      image: "https://i.pinimg.com/736x/fd/29/2f/fd292f15e1bb578f5ed0c1381bb76cb8.jpg",
+      tech: ["React Netiv", "TypeScript", "Rork AI"],
+      demoUrl: "https://password-keeper.rork.app",
+      githubUrl: "https://github.com/akasaam/passwardmanager"
     },
     {
       title: "Todo List Application",
