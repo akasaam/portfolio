@@ -42,7 +42,7 @@ function App() {
       description: "Digital marketing agency specializing in viral content creation and social media strategy",
       image: "https://i.pinimg.com/736x/34/53/8d/34538d9f40246bba3e5faa2c5d943f17.jpg",
       tech: ["React", "Next.js", "Tailwind CSS ","Shadcn Ui"],
-      demoUrl: "https://viral-alchemy.com",
+      demoUrl: "https://viral-alchemy.vercel.app/",
       githubUrl: "https://github.com/akasaam/viral-alchemy",
      
     },
