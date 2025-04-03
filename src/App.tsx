@@ -28,6 +28,15 @@ function App() {
   };
 
   const projects = [
+     {
+      title: "Viral Alchemy 2.0",
+      description: "Digital marketing agency specializing in viral content creation and social media strategy",
+      image: "https://i.pinimg.com/736x/55/bc/fa/55bcfacd46726ac5453d779843c66fbb.jpg",
+      tech: ["React", "Next.js", "Tailwind CSS ","V.0 "],
+      demoUrl: "https://viral-alchemy-2-0.vercel.app/",
+      githubUrl: "https://github.com/akasaam/viral-alchemy-2.0",
+     
+    },
     {
       title: "GeeksHub",
       description: "Transform your future with our comprehensive computer training programs. .",
