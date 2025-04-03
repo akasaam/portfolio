@@ -31,7 +31,7 @@ function App() {
      {
       title: "Viral Alchemy 2.0",
       description: "Digital marketing agency specializing in viral content creation and social media strategy",
-      image: "https://i.pinimg.com/736x/55/bc/fa/55bcfacd46726ac5453d779843c66fbb.jpg",
+      image: "https://i.pinimg.com/736x/cc/bb/63/ccbb63d060fb1d34aca3a7f19e90ea19.jpg",
       tech: ["React", "Next.js", "Tailwind CSS ","V.0 "],
       demoUrl: "https://viral-alchemy-2-0.vercel.app/",
       githubUrl: "https://github.com/akasaam/viral-alchemy-2.0",
