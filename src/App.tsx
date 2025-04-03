@@ -138,7 +138,7 @@ function App() {
                     className="text-4xl md:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-violet-200 to-indigo-600"
                   />
                   <p className="mt-4 text-slate-400 text-lg leading-relaxed">
-                    Web developer proficient in HTML, CSS, JS, and React.js. Passionate about creating beautiful, responsive, and user-friendly websites.🚀💻
+                    Web developer proficient in AI tools. Passionate about creating beautiful, responsive, and user-friendly websites.🚀💻
                   </p>
                 </div>
               </div>
