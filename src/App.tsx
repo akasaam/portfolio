@@ -29,11 +29,65 @@ function App() {
 
   const projects = [
      {
+      title: "Sutra | Superspeciality",
+      description: "Empowering families on their journey to holistic well-being.",
+      image: "https://scontent.fccu13-1.fna.fbcdn.net/v/t39.30808-6/271765922_141059751690840_491231335670619429_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=Let43W3GRvQQ7kNvwEg5ubQ&_nc_oc=AdmhfANfsYsg-ZJQRTR5oeemk2Imhv6sXm6e6-hNzWFsb99COjB9rITN-wVxEp0DR9c&_nc_zt=23&_nc_ht=scontent.fccu13-1.fna&_nc_gid=FpnO-kcJdvXKMc44n6n2nQ&oh=00_AfJvZMewTKFBC4p_9GbuNQYUIg6qw7vqhu6Y71vT_s5S5w&oe=683D104D",
+      tech: ["Under Development"],
+      demoUrl: "https://v0-sutra-care.vercel.app/",
+      githubUrl: "https://github.com/akasaam/Sutra-Superspeciality-Therapy",
+     
+    },
+     {
+      title: "People and Pets",
+      description: "Your one-stop destination for pet grooming, veterinary services, and premium pet food.",
+      image: "https://i.pinimg.com/736x/c8/e5/dc/c8e5dc07633bcb8408247a9b78998b24.jpg",
+      tech: ["Under Development"],
+      demoUrl: "https://v0-people-and-pets-website.vercel.app/",
+      githubUrl: "https://github.com/akasaam/people-and-pets",
+     
+    },
+     {
+      title: "A-Smiles Dental Clinic",
+      description: "A-Smiles Dental Clinic offers premium dental care with a self-care lounge experience.",
+      image: "https://i.pinimg.com/736x/df/5f/a7/df5fa76c46d2d77ee390df51d0266f81.jpg",
+      tech: ["React", "Next.js", "Tailwind CSS ","V.0"],
+      demoUrl: "https://v0.dev/chat/a-smiles-dental-website-Uu2BJXYvKW0",
+      githubUrl: "https://github.com/akasaam/A-smile-",
+     
+    },
+     {
+      title: "King Queen Salon",
+      description: "Premium unisex salon in a luxurious setting where every client is treated like royalty.",
+      image: "https://cdn.dribbble.com/userupload/26123812/file/original-c34a69dc079e0dcad53963957bca37c2.jpg?resize=1024x768&vertical=center",
+      tech: ["React", "Next.js", "Tailwind CSS ","V.0"],
+      demoUrl: "https://kingqueensalon.vercel.app",
+      githubUrl: "https://github.com/akasaam/King-Queen-Salon",
+     
+    },
+     {
+      title: "Perself Mindcare",
+      description: "Holistic approaches to mental wellness. Healing begins with acceptance.",
+      image: "https://cdn.dribbble.com/userupload/17753158/file/original-6a2f902bfcc668c047f6b0d5ed9c498d.jpg?resize=1024x652&vertical=center",
+      tech: ["React", "Next.js", "Tailwind CSS ","Loveable"],
+      demoUrl: "https://perselfmindcarebysam.lovable.app",
+      githubUrl: "https://github.com/akasaam/perself-wellness-journey",
+     
+    },
+    {
+      title: "Twelve 7 Salon Website",
+      description: "Professional salon website with booking system and service catalog",
+      image: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?q=80&w=1600&h=900&fit=crop",
+      tech: ["Under Maintenance"],
+      demoUrl: "https://twelve7salon.com",
+      githubUrl: "https://github.com/akasaam/twelve7-salon"
+    },
+
+     {
       title: "Viral Alchemy 2.0",
       description: "Digital marketing agency specializing in viral content creation and social media strategy",
       image: "https://i.pinimg.com/736x/cc/bb/63/ccbb63d060fb1d34aca3a7f19e90ea19.jpg",
       tech: ["React", "Next.js", "Tailwind CSS ","V.0 "],
-      demoUrl: "https://viral-alchemy-2-0.vercel.app/",
+      demoUrl: "https://viral-alchemy-2-0.vercel.app",
       githubUrl: "https://github.com/akasaam/viral-alchemy-2.0",
      
     },
@@ -42,7 +96,7 @@ function App() {
       description: "Transform your future with our comprehensive computer training programs. .",
       image: "https://i.pinimg.com/736x/6a/50/3f/6a503fc28d991c249b3cf8e88a023343.jpg",
       tech: ["React", "Next.js", "Tailwind CSS"],
-      demoUrl: "https://v0-geeks-hub.vercel.app/",
+      demoUrl: "https://v0-geeks-hub.vercel.app",
       githubUrl: "https://github.com/akasaam/geekshub",
      
     },
@@ -71,15 +125,7 @@ function App() {
       demoUrl: "https://todo.raju.dev",
       githubUrl: "https://github.com/akasaam/ToDo-List"
     },
-    {
-      title: "Twelve 7 Salon Website",
-      description: "Professional salon website with booking system and service catalog",
-      image: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?q=80&w=1600&h=900&fit=crop",
-      tech: ["WordPress","Shopify"],
-      demoUrl: "https://twelve7salon.com",
-      githubUrl: "https://github.com/akasaam/twelve7-salon"
-    },
-    
+        
     {
       title: "Woods Club",
       description: "A e learning platform for students where the can learn coading and business",
