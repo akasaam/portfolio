@@ -7,13 +7,13 @@ export const SocialLinks = () => {
     {
       href: 'mailto:akarajuhalder@gmail.com',
       icon: <Mail className="w-5 h-5" />,
-      text: 'akarajuhalder@gmail.com',
+      text: <span className="blur-sm select-none">samdev@gmail.com</span>,
       tooltip: 'Send me an email',
     },
     {
-      href: 'tel:+917501411769',
+      href: 'tel:+917074225593',
       icon: <Phone className="w-5 h-5" />,
-      text: '+91 75014 11769',
+      text: <span className="blur-sm select-none">+91 70742 25593</span>,
       tooltip: 'Call me',
     },
     {

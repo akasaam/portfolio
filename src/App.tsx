@@ -126,7 +126,7 @@ function App() {
                   <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-violet-500/20 shadow-xl shadow-violet-500/10">
                     <img 
                       src="https://avatars.githubusercontent.com/u/133478692?v=4" 
-                      alt="Raju Halder"
+                      alt="Sam"
                       className="w-full h-full object-cover"
                     />
                   </div>
@@ -134,7 +134,7 @@ function App() {
                 </div>
                 <div>
                   <AnimatedText
-                    text="RAJU HALDER"
+                    text="Sam"
                     className="text-4xl md:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-violet-200 to-indigo-600"
                   />
                   <p className="mt-4 text-slate-400 text-lg leading-relaxed">
@@ -326,7 +326,7 @@ function App() {
           {/* Footer */}
           <footer className="container mx-auto px-4 py-8 mt-16 border-t border-slate-800">
             <div className="text-center text-slate-400">
-              <p>© {new Date().getFullYear()} Raju Halder. All rights reserved.</p>
+              <p>© {new Date().getFullYear()} Sam. All rights reserved.</p>
               <p className="mt-2">Made with ❤️ in Siliguri, India</p>
             </div>
           </footer>
