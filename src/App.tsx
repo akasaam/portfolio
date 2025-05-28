@@ -229,7 +229,7 @@ function App() {
           {/* Projects Section */}
           <section className="container mx-auto px-4 py-16">
             <h2 className="text-3xl font-bold mb-8 bg-clip-text text-transparent bg-gradient-to-r from-violet-400 to-indigo-600">Featured Projects</h2>
-            <div className="relative overflow-hidden">
+            <div className="relative">
               <div className="absolute bottom-4 right-4 flex items-center gap-2 text-slate-400 z-10 bg-slate-900/80 px-4 py-2 rounded-full backdrop-blur-sm">
                 <MousePointer className="w-4 h-4" />
                 <span className="text-sm">Drag to scroll</span>
@@ -244,7 +244,8 @@ function App() {
                   <motion.div
                     key={index}
                     className="relative flex-shrink-0 w-[400px] overflow-hidden rounded-xl hover-card group"
-                    whileHover={{ scale: 1.05 }}
+                    whileHover={{ scale: 2, zIndex: 50 }}
+                    style={{ zIndex: 1 }}
                     transition={{ type: 'spring', stiffness: 300, damping: 24 }}
                   >
                     <img 
