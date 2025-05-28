@@ -5,9 +5,9 @@ import { Tooltip } from './ui/tooltip';
 export const SocialLinks = () => {
   const links = [
     {
-      href: 'mailto:akarajuhalder@gmail.com',
+      href: 'mailto:marketing.viralalchemy@gmail.com',
       icon: <Mail className="w-5 h-5" />,
-      text: <span className="blur-sm select-none">samdev@gmail.com</span>,
+      text: <span className="blur-sm select-none">marketing.viralalchemy@gmail.com</span>,
       tooltip: 'Send me an email',
     },
     {

@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { AnimatedText } from './components/ui/animated-text';
-import { MovingBorder } from './components/ui/moving-border';
 import { SocialLinks } from './components/social-links';
 import { LoadingScreen } from './components/ui/loading-screen';
 import { ThemeToggle } from './components/ui/theme-toggle';
@@ -28,9 +27,11 @@ function App() {
   };
 
   const projects = [
-     {
+    {
       title: "Sutra | Superspeciality",
       description: "Empowering families on their journey to holistic well-being.",
+      date: "2025-May",
+      highlight: "Holistic Superspeciality",
       image: "https://scontent.fccu13-1.fna.fbcdn.net/v/t39.30808-6/271765922_141059751690840_491231335670619429_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=Let43W3GRvQQ7kNvwEg5ubQ&_nc_oc=AdmhfANfsYsg-ZJQRTR5oeemk2Imhv6sXm6e6-hNzWFsb99COjB9rITN-wVxEp0DR9c&_nc_zt=23&_nc_ht=scontent.fccu13-1.fna&_nc_gid=FpnO-kcJdvXKMc44n6n2nQ&oh=00_AfJvZMewTKFBC4p_9GbuNQYUIg6qw7vqhu6Y71vT_s5S5w&oe=683D104D",
       tech: ["Under Development"],
       demoUrl: "https://v0-sutra-care.vercel.app/",
@@ -40,6 +41,8 @@ function App() {
      {
       title: "People and Pets",
       description: "Your one-stop destination for pet grooming, veterinary services, and premium pet food.",
+      date: "2025-May",
+      highlight: "Pet Store",
       image: "https://i.pinimg.com/736x/c8/e5/dc/c8e5dc07633bcb8408247a9b78998b24.jpg",
       tech: ["Under Development"],
       demoUrl: "https://v0-people-and-pets-website.vercel.app/",
@@ -49,6 +52,8 @@ function App() {
      {
       title: "A-Smiles Dental Clinic",
       description: "A-Smiles Dental Clinic offers premium dental care with a self-care lounge experience.",
+      date: "2025-April",
+      highlight: "Dental Clinic",
       image: "https://i.pinimg.com/736x/df/5f/a7/df5fa76c46d2d77ee390df51d0266f81.jpg",
       tech: ["React", "Next.js", "Tailwind CSS ","V.0"],
       demoUrl: "https://v0.dev/chat/a-smiles-dental-website-Uu2BJXYvKW0",
@@ -58,6 +63,8 @@ function App() {
      {
       title: "King Queen Salon",
       description: "Premium unisex salon in a luxurious setting where every client is treated like royalty.",
+      date: "2025-April",
+      highlight: "Unisex Salon",
       image: "https://cdn.dribbble.com/userupload/26123812/file/original-c34a69dc079e0dcad53963957bca37c2.jpg?resize=1024x768&vertical=center",
       tech: ["React", "Next.js", "Tailwind CSS ","V.0"],
       demoUrl: "https://kingqueensalon.vercel.app",
@@ -67,6 +74,8 @@ function App() {
      {
       title: "Perself Mindcare",
       description: "Holistic approaches to mental wellness. Healing begins with acceptance.",
+      date: "2025-March",
+      highlight: "Psychologist Counseling ",
       image: "https://cdn.dribbble.com/userupload/17753158/file/original-6a2f902bfcc668c047f6b0d5ed9c498d.jpg?resize=1024x652&vertical=center",
       tech: ["React", "Next.js", "Tailwind CSS ","Loveable"],
       demoUrl: "https://perselfmindcarebysam.lovable.app",
@@ -74,8 +83,20 @@ function App() {
      
     },
     {
+      title: "AKK Wedding Planner",
+      description: "Comprehensive wedding planning services with personalized packages",
+      date: "2024-September",
+      highlight: "Wedding Planner",
+      image: "https://i.pinimg.com/736x/48/d4/d7/48d4d77da388b872fc68d9816f55bb10.jpg",
+      tech: ["WordPress", "PHP", "HTML", "CSS"],
+      demoUrl: "https://www.akkweddingplanner.com/",
+      githubUrl: "https://github.com/akasaam/akkweddingplanner"
+    },
+    {
       title: "Twelve 7 Salon Website",
       description: "Professional salon website with booking system and service catalog",
+      date: "2023-May",
+      highlight: "Unisex Salon",
       image: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?q=80&w=1600&h=900&fit=crop",
       tech: ["Under Maintenance"],
       demoUrl: "https://twelve7salon.com",
@@ -85,6 +106,8 @@ function App() {
      {
       title: "Viral Alchemy 2.0",
       description: "Digital marketing agency specializing in viral content creation and social media strategy",
+      date: "2025-January",
+      highlight: "Marketing Agency",
       image: "https://i.pinimg.com/736x/cc/bb/63/ccbb63d060fb1d34aca3a7f19e90ea19.jpg",
       tech: ["React", "Next.js", "Tailwind CSS ","V.0 "],
       demoUrl: "https://viral-alchemy-2-0.vercel.app",
@@ -93,7 +116,9 @@ function App() {
     },
     {
       title: "GeeksHub",
-      description: "Transform your future with our comprehensive computer training programs. .",
+      description: "Transform your future with our comprehensive computer training programs .",
+      date: "2024-September",
+      highlight: "Computer Institute",
       image: "https://i.pinimg.com/736x/6a/50/3f/6a503fc28d991c249b3cf8e88a023343.jpg",
       tech: ["React", "Next.js", "Tailwind CSS"],
       demoUrl: "https://v0-geeks-hub.vercel.app",
@@ -103,6 +128,8 @@ function App() {
     {
       title: "Viral Alchemy",
       description: "Digital marketing agency specializing in viral content creation and social media strategy",
+      date: "2025-January",
+      highlight: "Marketing Agency",
       image: "https://i.pinimg.com/736x/34/53/8d/34538d9f40246bba3e5faa2c5d943f17.jpg",
       tech: ["React", "Next.js", "Tailwind CSS ","Shadcn Ui"],
       demoUrl: "https://viral-alchemy.vercel.app/",
@@ -112,6 +139,8 @@ function App() {
     {
       title: "Password Manager",
       description: "Keep your digital life secure, it's saves all data on  your phone only",
+      date: "2025-January",
+      highlight: "Password Manager",
       image: "https://i.pinimg.com/736x/fd/29/2f/fd292f15e1bb578f5ed0c1381bb76cb8.jpg",
       tech: ["React Netiv", "TypeScript", "Rork AI"],
       demoUrl: "https://password-keeper.rork.app",
@@ -120,6 +149,8 @@ function App() {
     {
       title: "Todo List Application",
       description: "Feature-rich task management app with local storage and categories",
+      date: "2025-January",
+      highlight: "Complete Task",
       image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?q=80&w=1600&h=900&fit=crop",
       tech: ["Tailwind CSS", "JavaScript",],
       demoUrl: "https://todo.raju.dev",
@@ -129,6 +160,8 @@ function App() {
     {
       title: "Woods Club",
       description: "A e learning platform for students where the can learn coading and business",
+      date: "2024-January",
+      highlight: "E-Learning Platform",
       image: "https://i.pinimg.com/736x/9e/0e/2a/9e0e2a8be395cbebe80fe4296dcb4a0e.jpg",
       tech: [ "Tailwind CSS"],
       demoUrl: "https://woodsclub.netlify.app/",
@@ -211,7 +244,8 @@ function App() {
                   <motion.div
                     key={index}
                     className="relative flex-shrink-0 w-[400px] overflow-hidden rounded-xl hover-card group"
-                    whileHover={{ scale: 1.02 }}
+                    whileHover={{ scale: 1.05 }}
+                    transition={{ type: 'spring', stiffness: 300, damping: 24 }}
                   >
                     <img 
                       src={project.image} 
@@ -253,6 +287,18 @@ function App() {
                         </a>
                       </div>
                     </div>
+                    {/* Popup from bottom on hover */}
+                    <motion.div
+                      initial={{ y: 80, opacity: 0 }}
+                      whileHover={{ y: 0, opacity: 1 }}
+                      transition={{ type: 'spring', stiffness: 300, damping: 24 }}
+                      className="absolute left-0 right-0 bottom-0 z-20 p-4 bg-gradient-to-r from-violet-600 to-indigo-600 text-white rounded-b-xl flex flex-col items-center gap-2 group-hover:opacity-100 group-hover:translate-y-0 opacity-0 translate-y-8 pointer-events-none group-hover:pointer-events-auto"
+                    >
+                      <span className="font-bold text-sm bg-white/20 px-3 py-1 rounded-full mb-1">{project.date}</span>
+                      <span className="font-semibold text-base">
+                        <span className="bg-white/30 px-2 py-0.5 rounded mx-1 text-violet-100">{project.highlight}</span>
+                      </span>
+                    </motion.div>
                   </motion.div>
                 ))}
               </motion.div>
