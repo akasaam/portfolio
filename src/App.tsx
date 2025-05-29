@@ -82,6 +82,17 @@ function App() {
       githubUrl: "https://github.com/akasaam/perself-wellness-journey",
      
     },
+     {
+      title: "DarjeelingSoapCo",
+      description: "National Award-winning organic soaps crafted from the finest ingredients of Darjeeling.",
+      date: "2025-March",
+      highlight: "Organic Soap",
+      image: "https://i.pinimg.com/736x/02/dc/61/02dc6199ee9fb78ee8e9117a01585183.jpg",
+      tech: ["React", "Next.js", "Tailwind CSS ","V.0"],
+      demoUrl: "https://darjeelingsoapco.vercel.app/",
+      githubUrl: "https://github.com/akasaam/darjeeling-soap",
+     
+    },
     {
       title: "AKK Wedding Planner",
       description: "Comprehensive wedding planning services with personalized packages",
